@@ -52,8 +52,6 @@ fun Route.userRouting(){
                         status = HttpStatusCode.OK )
                 }
             }
-
-
         }
 
         delete("{id?}"){
