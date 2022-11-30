@@ -1,18 +1,19 @@
 package com.example.routes
 
-import com.example.models.User
+import com.example.user.User
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
-private val users = mutableListOf<User>(
-    User(1, "Dotel", 24, "elnegro@gmail.com"),
-    User(2, "Manu", 24, "elCoffeMilk@gmail.com")
-)
+
 
 fun Route.userRouting(){
+
+
+
+    /*
     route("/user"){
         get{
             if (users.isNotEmpty()){
@@ -66,4 +67,6 @@ fun Route.userRouting(){
             }
         }
     }
+
+     */
 }
